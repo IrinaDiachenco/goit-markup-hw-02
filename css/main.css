@@ -1,0 +1,105 @@
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --accent-color: #2196F3;
+    --primary-bg-color: #E5E5E5;
+    --secondary-bg-color: #F5F4FA;
+    --header-bg-color: #FFFFFF;
+    --footer-bg-color: #2F303A;
+}
+
+.site-header {
+    background-color: var(--header-bg-color);
+}
+
+.logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--title-text-color);
+}
+
+.logo:hover {
+    color: var(--accent-text-color);
+}
+
+.link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.email{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--accent-text-color);
+}
+
+.tel{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--secondary-text-color);
+}
+
+.hero{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+
+.text{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.secondary-function{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+h1{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17px;
+}
+
+.name{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.position{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+footer{
+    background-color: var(--footer-bg-color);
+}
+
+.copyright{
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 2;
+}
+
+.button-primary{
+    background-color: ;
+    content: ;
+}
