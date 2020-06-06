@@ -29,7 +29,7 @@
 
 .link {
     font-family: Roboto, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
@@ -40,7 +40,7 @@
 
 .email{
     font-family: Roboto, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: var(--accent-text-color);
@@ -48,7 +48,7 @@
 
 .tel{
     font-family: Roboto, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: var(--secondary-text-color);
@@ -83,7 +83,7 @@ h1{
 
 .name{
     font-family: Roboto, sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -108,7 +108,7 @@ footer{
     color: var(--title-text-color);
     background-color: var(--secondary-bg-color);
     font-family: Roboto;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
 }
