@@ -8,6 +8,7 @@
     --secondary-bg-color: #F5F4FA;
     --header-bg-color: #FFFFFF;
     --footer-bg-color: #2F303A;
+    --client-color: #AFB1B8;
 }
 
 .site-header {
@@ -15,7 +16,7 @@
 }
 
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -27,14 +28,18 @@
 }
 
 .link {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
 }
 
+.link:hover {
+    color: var(--accent-text-color);
+}
+
 .email{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
@@ -42,7 +47,7 @@
 }
 
 .tel{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
@@ -50,41 +55,41 @@
 }
 
 .hero{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
 }
 
 .text{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.71;
 }
 
 .secondary-function{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
 }
 
 h1{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17px;
 }
 
 .name{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.19;
 }
 
 .position{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -94,12 +99,26 @@ footer{
 }
 
 .copyright{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 12px;
     line-height: 2;
 }
 
-.button-primary{
-    background-color: ;
-    content: ;
+.button{
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
 }
+
+.button:hover{
+    color: var(--header-bg-color);
+    background-color: var(--accent-color);
+}
+
+ul{
+    list-style: none;
+}
+
