@@ -122,3 +122,6 @@ ul{
     list-style: none;
 }
 
+.client{
+    color: var(--client-color);
+}
