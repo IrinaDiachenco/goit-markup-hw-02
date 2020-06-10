@@ -78,7 +78,7 @@ h1{
     font-family: Roboto, sans-serif;
     font-weight: bold;
     font-size: 36px;
-    line-height: 1.17px;
+    line-height: 1.17;
 }
 
 .name{
@@ -125,3 +125,4 @@ ul{
 .client{
     color: var(--client-color);
 }
+
