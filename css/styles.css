@@ -11,8 +11,19 @@
     --client-color: #AFB1B8;
 }
 
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .site-header {
     background-color: var(--header-bg-color);
+    width: 1600px;
+    height: 81px;
 }
 
 .logo {
@@ -24,6 +35,10 @@
 }
 
 .logo:hover {
+    color: var(--accent-text-color);
+}
+
+.logo-web {
     color: var(--accent-text-color);
 }
 
@@ -65,13 +80,23 @@
     font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.71;
+    color: var(--secondary-text-color);
 }
 
-.secondary-function{
+.secondary-function {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;  
+}
+
+.secondary-function1 {
     font-family: Roboto, sans-serif;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
+    color: var(--header-bg-color);
+    background: rgba(47, 48, 58, 0.8);
 }
 
 h1{
@@ -92,16 +117,52 @@ h1{
     font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.19;
+    color: var(--secondary-text-color);
 }
 
-footer{
+.text-project {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--secondary-text-color)
+}
+
+footer {
     background-color: var(--footer-bg-color);
 }
 
-.copyright{
+.footer-text {
+    color: var(--header-bg-color);
+}
+
+.footer-text-item {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--header-bg-color);
+}
+
+.copyright {
     font-family: Roboto, sans-serif;
     font-size: 12px;
     line-height: 2;
+    color: var(--header-bg-color);
+}
+
+footer .email {
+    color:rgba(255, 255, 255, 0.6);
+}
+
+footer .tel {
+    color:rgba(255, 255, 255, 0.6);
+}
+
+footer .logo {
+    color: var(--header-bg-color);
 }
 
 .button{
